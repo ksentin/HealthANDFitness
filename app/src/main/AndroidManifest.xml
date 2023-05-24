@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthFitness"
+        tools:targetApi="31">
+        <activity
+            android:name=".LegsUp"
+            android:exported="false" />
+        <activity
+            android:name=".RunKneeHight"
+            android:exported="false" />
+        <activity
+            android:name=".Cat_Exsers"
+            android:exported="false" />
+        <activity
+            android:name=".Gluteal_bridge_withLeg"
+            android:exported="false" />
+        <activity
+            android:name=".Gluteal_bridge"
+            android:exported="false" />
+        <activity
+            android:name=".KickBack"
+            android:exported="false" />
+        <activity
+            android:name=".BackExsers"
+            android:exported="false" />
+        <activity
+            android:name=".Update_param"
+            android:exported="false" />
+        <activity
+            android:name=".Calories"
+            android:exported="false" />
+        <activity
+            android:name=".Bike"
+            android:exported="false" />
+        <activity
+            android:name=".ForwardLung"
+            android:exported="false" />
+        <activity
+            android:name=".Lunges"
+            android:exported="false" />
+        <activity
+            android:name=".ElbowPlank"
+            android:exported="false" />
+        <activity
+            android:name=".JumpingJ"
+            android:exported="false" />
+        <activity
+            android:name=".Twisting"
+            android:exported="false" />
+        <activity
+            android:name=".Squats"
+            android:exported="false" />
+        <activity
+            android:name=".Push_ups"
+            android:exported="false" />
+        <activity
+            android:name=".Plank"
+            android:exported="false" />
+        <activity
+            android:name=".Sport"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterWindow"
+            android:exported="false" />
+        <activity
+            android:name=".MainWindow"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

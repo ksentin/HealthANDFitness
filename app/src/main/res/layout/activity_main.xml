@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/layout_style"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/enter_and_registr"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.27"
+            android:fontFamily="@font/tinos_bold"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:text="@string/start_enter"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ent_email"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="70dp"
+
+            android:layout_marginEnd="70dp"
+            android:layout_weight="0.25"
+            android:ems="10"
+            android:hint="@string/emhint"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ent_passwd"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="70dp"
+
+            android:layout_marginEnd="70dp"
+            android:layout_weight="0.25"
+            android:ems="10"
+            android:hint="@string/passhint"
+            android:inputType="textPassword" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/login_butt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_weight="0.21"
+            android:fontFamily="@font/tinos_bold"
+            android:background="@drawable/btn_style"
+            android:text="@string/enter" />
+
+        <Button
+            android:id="@+id/registr_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.3"
+            android:background="#00FFFFFF"
+            android:textColor="@color/black"
+            android:fontFamily="@font/tinos_bold"
+            android:textSize="16dp"
+            android:text="@string/gotoreg" />
+    </LinearLayout>
+</RelativeLayout>

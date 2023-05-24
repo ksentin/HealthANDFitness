@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">healthANDfitness</string>
+    <string name="start_enter">Вхід та реєстрація</string>
+    <string name="emhint">email</string>
+    <string name="passhint">пароль</string>
+    <string name="enter">Увійти</string>
+    <string name="gotoreg">Не маєте акаунту? Зареєструватися</string>
+    <string name="training">тренування</string>
+    <string name="food">харчування</string>
+    <string name="sleep">сон</string>
+    <string name="title_activity_main_window">MainWindow</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="stat">Статистика</string>
+    <string name="today_activity">Активність</string>
+    <string name="profile">Профіль</string>
+    <string name="registration">Реєстрація</string>
+    <string name="enter_anme">Ваше ім\'я:</string>
+    <string name="enter_sex">Ваша стать:</string>
+    <string name="enter_email">Ваш email:</string>
+    <string name="enter_passwd">Ваш пароль:</string>
+    <string name="man">чоловіча</string>
+    <string name="woman">жіноча</string>
+    <string name="makeregistration">Зареєструватися</string>
+    <string name="ent_cal">Записати калорії</string>
+    <string name="do_sport">Виконати тренування</string>
+    <string name="change_param">Оновити параметри</string>
+    <string name="plank">Планка</string>
+    <string name="elbowPlank">Планка на ліктях</string>
+    <string name="pushups">Віджимання</string>
+    <string name="squats">Присідання</string>
+    <string name="twist">Скручування</string>
+    <string name="jump">Джампінг Джек</string>
+    <string name="bike">Велосипед</string>
+    <string name="lunges_side">Випади в сторону</string>
+    <string name="lunges_forward">Випади вперед</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+
+
+</resources>

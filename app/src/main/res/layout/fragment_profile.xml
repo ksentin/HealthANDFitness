@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_style"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/log_out"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:layout_gravity="center"
+                android:contentDescription="log out"
+                android:src="@drawable/baseline_logout" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity = "center"
+            android:orientation="vertical">
+
+            <!-- Средний LinearLayout -->
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/profile"
+                android:fontFamily="@font/tinos_bold"
+                android:textColor="#3E2867"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+               <ImageView
+                   android:id="@+id/imageView"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:src="@drawable/account_box_24" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
+                android:fontFamily="@font/tinos_bold"
+                android:gravity="center"
+                android:textColor="#3E2867"
+                android:hint="ім'я"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
+                android:fontFamily="@font/tinos_bold"
+                android:gravity="center"
+                android:textColor="#3E2867"
+                android:hint="вік"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/layout_style"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="1.2"
+                android:src="@drawable/food" />
+
+            <Button
+                android:id="@+id/goto_ent_cal"
+                android:layout_width="550dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:text="@string/ent_cal"
+                android:textColor="@color/ic_launcher_background"
+                android:fontFamily="@font/tinos_bold"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/layout_style"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:layout_margin="15dp"
+                android:src="@drawable/gantel" />
+
+            <Button
+                android:id="@+id/goto_do_sport"
+                android:layout_width="550dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:text="@string/do_sport"
+                android:textColor="@color/ic_launcher_background"
+                android:fontFamily="@font/tinos_bold"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/layout_style"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:layout_margin="15dp"
+                android:src="@drawable/vesi" />
+
+            <Button
+                android:id="@+id/goto_change_param"
+                android:layout_width="550dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:text="@string/change_param"
+                android:textColor="@color/ic_launcher_background"
+                android:fontFamily="@font/tinos_bold"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

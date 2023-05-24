@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "84587776652",
+    "project_id": "myapp-d86a1",
+    "storage_bucket": "myapp-d86a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84587776652:android:2432ec0bd9505c6696c9a9",
+        "android_client_info": {
+          "package_name": "com.example.healthfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84587776652-grepm9g1cpiei8tu4ka47k0gad4doh3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq2LdSz17vgvKYYAZ8ApKUOsFf_3XJuvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84587776652-grepm9g1cpiei8tu4ka47k0gad4doh3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
